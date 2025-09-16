@@ -1,0 +1,67 @@
+{
+  "category": "vpn",
+  "created_date": "2025-09-15T22:48:59.472828",
+  "default_ports": [
+    0,
+    1,
+    2,
+    443,
+    51820,
+    51821
+  ],
+  "dependencies": [
+    "wireguard-tools",
+    "iptables"
+  ],
+  "description": "WireGuard is a free and open-source VPN protocol and software implementation that aims to be simpler, faster, and more secure than existing VPN protocols. Originally developed by Jason A. Donenfeld, WireGuard provides state-of-the-art cryptography and minimal attack surface. It serves as a modern FOSS alternative to proprietary VPN solutions like Cisco AnyConnect, Palo Alto GlobalProtect, or commercial VPN services, offering enterprise-grade security with significantly better performance and a fraction of the codebase.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/vpn/wireguard",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/vpn/wireguard",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:59.472848",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "wireguard",
+  "repository_url": "https://github.com/howtomgr/wireguard",
+  "spec_version": "2.0",
+  "subcategory": "vpn",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "vpn",
+    "observability",
+    "data-storage",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "WireGuard Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/vpn/wireguard"
+}
